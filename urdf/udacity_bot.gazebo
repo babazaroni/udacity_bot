@@ -18,20 +18,9 @@
     </plugin>
   </gazebo>
 
-  <gazebo reference="chassis">
-    <material>Gazebo/Blue</material>
-  </gazebo>
-  <gazebo reference="left_wheel">
-    <material>Gazebo/Green</material>
-  </gazebo>
-  <gazebo reference="right_wheel">
-    <material>Gazebo/Green</material>
-  </gazebo>
-
-
 
   <gazebo reference="camera">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/Green</material>
     <sensor type="camera" name="camera1">
       <update_rate>30.0</update_rate>
       <camera name="head">
@@ -102,4 +91,3 @@
 
 
 </robot>
-
