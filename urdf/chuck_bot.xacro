@@ -40,18 +40,21 @@
     <collision name='collision'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/>
       <geometry>
-        <box size=".4 .2 .1"/>
+        <cylinder radius=".2" length=".1"/>
+
       </geometry>
     </collision>
 
-    <visual name='chassis_visual'>
-    <material name="blue"/>
 
+    <visual name='chassis_visual'>
       <origin xyz="0 0 0" rpy=" 0 0 0"/>
       <geometry>
-        <box size=".4 .2 .1"/>
+        <cylinder radius=".2" length=".1"/>
+
       </geometry>
     </visual>
+
+
 
     <collision name='tower'>
       <origin xyz="0 0 0.1" rpy=" 0 0 0"/> 
