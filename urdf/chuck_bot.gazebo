@@ -21,6 +21,10 @@
   <gazebo reference="chassis">
     <material>Gazebo/Blue</material>
   </gazebo>
+  <gazebo reference="tower">
+    <material>Gazebo/White</material>
+  </gazebo>
+
   <gazebo reference="left_wheel">
     <material>Gazebo/Green</material>
   </gazebo>
