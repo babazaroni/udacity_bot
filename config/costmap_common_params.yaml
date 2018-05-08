@@ -7,7 +7,8 @@ transform_tolerance: 0.3
 
 inflation_radius: 0.55
 
-footprint: [[-0.20, -0.20], [-0.20, 0.20], [0.20, 0.20], [0.20, -0.20]]
+#robot_radius: 0.25 # for chuck robot
+footprint: [[-0.25, -0.20], [-0.25, 0.20], [0.25, 0.20], [0.25, -0.20]]  # for udacity Robot
 
 observation_sources: laser_scan_sensor
 
